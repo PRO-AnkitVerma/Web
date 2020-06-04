@@ -26,6 +26,7 @@ h1 {
 
 .menu {
   border: 10px whitesmoke solid;
+  background-color: whitesmoke;
 }
 
 .menu-item {
