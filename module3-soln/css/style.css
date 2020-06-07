@@ -1,0 +1,62 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+header nav.navbar {
+  padding: 0;
+}
+
+header nav a.navbar-brand {
+  margin-left: 1rem;
+} 
+
+header nav button {
+  margin-right: 1rem;
+} 
+
+header nav div li.nav-item {
+  border-top: 1px solid black;
+}
+
+header nav div li.nav-item:nth-child(3) {
+  border-bottom: 1px solid black;
+}
+
+.heading {
+  margin: 10px auto;
+  text-transform: capitalize;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+.content {
+  background-color: hotpink;
+  margin: 0 auto;
+}
+
+.content p {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.container-fluid {
+  padding: 1em;
+}
+
+/* for not extra small devices */
+@media (min-width: 576px) {
+  .hide-ifn-xs {
+    display: none;
+  }
+}
+
+/* for extra small devices */
+@media (max-width: 575px) {
+  .col-xs-10 {
+    width: 88.33%;
+  }
+}
